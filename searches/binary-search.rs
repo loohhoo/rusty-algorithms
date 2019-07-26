@@ -5,7 +5,7 @@
 
 use std::cmp::{PartialEq, PartialOrd};
 
-// Permit any type, implementing partialeq, partialord, and ord traits.
+// Permit any type, implementing partialeq, partialord traits.
 pub fn binary_search<T: PartialEq + PartialOrd>(item: &T, array: &[T]) -> Option<usize> {
     // the array must have at least 1 item, or an underflow occurs
     // so we return none.
