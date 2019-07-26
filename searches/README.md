@@ -1,6 +1,6 @@
-#Search Algorithms
+# Search Algorithms
 
-##Binary Search 
+## Binary Search 
 
 Binary search works by following the below steps
 1. Set the left side to 0, and the right to the end of the array (array.len() - 1).
@@ -13,7 +13,7 @@ Binary search works by following the below steps
 5. Repeat until condition 4.c is met.
 6. If the array at the left equals the search term, return the index (left), otherwise return nothing.
 
-###Pseudocode: 
+### Pseudocode: 
 
 ```
 binary_search(item, array) {
@@ -56,11 +56,11 @@ binary_search(item, array) {
 
 Binary Search operates at O(log n) time on average. It will also underflow if you do not check that the array provided has at least 1 member.
 
-##Linear Search
+## Linear Search
 
 Linear search is fairly self-explanatory; it searches linearly from start to the end and breaks the loop when it finds the item.
 
-###Pseudocode:
+### Pseudocode:
 
 ```
 linear_search(item, array) {
