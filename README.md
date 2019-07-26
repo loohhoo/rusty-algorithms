@@ -4,3 +4,4 @@ Collection of various implementations of algorithms I've found, some I have modi
 
 ## Searches
 ### [Binary Search](https://github.com/loohhoo/rusty-algorithms/blob/master/searches/binary-search.rs)
+### [Linear Search](https://github.com/loohhoo/rusty-algorithms/blob/master/searches/linear-search.rs)
