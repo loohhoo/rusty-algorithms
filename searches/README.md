@@ -43,7 +43,7 @@ binary_search(item, array) {
       }
     }
 
-    if array[left] = item {
+    if array[left] == item {
       return left;
     }
 
